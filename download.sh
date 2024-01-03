@@ -5,8 +5,7 @@
 
 set -e
 
-read -p "Enter the URL from email: " PRESIGNED_URL
-echo ""
+read -p "Enter the URL from email: " Https://download.llamameta.net/*? Policy=eyJTdGF0ZW1lbnQiOlt7InVuaXF1ZV9oYXNoIjoiZWg4Z2RiNXcxd2w3MDJ0MXNqbXB4eG9rIiwiUmVzb3VyY2UiOiJodHRwczpcL1wvZG93bmxvYWQubGxhbWFtZXRhLm5ldFwvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwNDM4MTA1OX19fV19&Signature=vNY3-rAHy1e9ibMbdv92BjfL69vfwaTxDLyntMvvpdW0T%7EvMp2wxb ""
 read -p "Enter the list of models to download without spaces (7B,13B,70B,7B-chat,13B-chat,70B-chat), or press Enter for all: " MODEL_SIZE
 TARGET_FOLDER="."             # where all files should end up
 mkdir -p ${TARGET_FOLDER}
